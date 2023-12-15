@@ -1,0 +1,22 @@
+---
+import Cads from "../components/Cads.astro";
+import Herosec from "../components/Herosec.astro";
+import PruNav from "../components/PruNav.astro";
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Landing page</title>
+  </head>
+  <body class="bg-white-800">
+    <!-- <Navbar /> -->
+    <PruNav />
+    <Herosec />
+
+    <Cads />
+  </body>
+</html>

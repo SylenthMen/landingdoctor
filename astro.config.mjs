@@ -9,5 +9,7 @@ export default defineConfig({
 });
 
 export default defineConfig({
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+  site: 'https://SylenthMen.github.io',
+  base: '/landingdoctor',
 });
